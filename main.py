@@ -12,7 +12,7 @@ except:
 w = wysiweb.WYSIWeb(
     site_path= './www',
     static_path='./www/static',
-    static_route='./static',
+    static_route='/static',
     input_encoding='utf-8'
 )
 app = w.app # Needed if you want to serve with, say, nginx
